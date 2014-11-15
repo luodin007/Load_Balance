@@ -17,6 +17,7 @@ addr = (host,port)
 rate = 0.1
 
 def choice_task():
+    '''任务选择，暂时以随机数代替'''
     return random.randint(1,3)
 
 class Client(threading.Thread):
